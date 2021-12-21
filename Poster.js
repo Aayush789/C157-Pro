@@ -1,4 +1,4 @@
-FRAME.registerComponent("comics-posters", {
+AFRAME.registerComponent("comics-posters", {
   init: function() {
     this.postersContainer = this.el;
     this.posters();
@@ -8,20 +8,20 @@ FRAME.registerComponent("comics-posters", {
     const postersRef = [
       {
         id: "batman",
-        url: "./assets/posters/batman-poster.jpg"
+        url: "./assets/batman-poster.jpg"
       },
       {
         id: "spiderman",
-        url: "./assets/posters/spiderman-poster.jpg"
+        url: "./assets/spiderman-poster.jpg"
       },
 
       {
         id: "captain-america",
-        url: "./assets/posters/captain-america-poster.jpg"
+        url: "./assets/captain-america-poster.jpg"
       },
       {
         id: "thor",
-        url: "./assets/posters/thor-poster.jpg"
+        url: "./assets/thor-poster.jpg"
       }
     ];
     let prevoiusXPosition = -60;
